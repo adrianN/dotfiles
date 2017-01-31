@@ -21,6 +21,8 @@ let $BASH_ENV = "~/.bash_aliases"
 
 color desert
 set cursorline
+" leave insert mode quickly upon <Esc>
+set timeoutlen=1000 ttimeoutlen=0
 augroup linehighlight
   autocmd!
   autocmd InsertEnter * set nocursorline

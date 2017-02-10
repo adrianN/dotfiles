@@ -1,4 +1,7 @@
-syntax enable
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
 set list listchars=tab:>-,trail:-
 set ff=unix
 set autoread
